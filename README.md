@@ -49,7 +49,7 @@ Following table shows training results comparison:
     <td>2.14</td>
     <td>39.15% (~20k samples)</td>
     <td>32.05% (~17k samples)</td>
-    <td>~10 kyu</td>
+    <td>~ FOX 10 kyu</td>
   </tr>
   <tr>
     <td>b6c96</td>
@@ -59,63 +59,18 @@ Following table shows training results comparison:
     <td>2.21</td>
     <td>41.37%</td>
     <td>37.75%</td>
-    <td>~6 kyu</td>
+    <td>~ FOX 6 kyu</td>
   </tr>
-</table>
-<br>
-<strong>cmkgo-b6c96-s1067091</strong> training progress (~8.5hrs/epoch)
-<br>
-<br>
-<table>
- <tr>
-   <th>Epoch</th>
-   <th>Loss</th>
-   <th>Acc. true</th>
-   <th>Acc. pred</th>
-   <th>Winrate against GnuGo (6 kyu)</th>
- </tr>
- <tr>
-   <td>1</td>
-   <td>3.5185</td>
-   <td>N/A</td>
-   <td>N/A</td>
-   <td>N/A</td>
- </tr>
- </tr>
-   <td>2</td>
-   <td>2.6923</td>
-   <td>34.84%</td>
-   <td>36.43%</td>
-   <td>0%</td>
- </tr>
- </tr>
-   <td>3</td>
-   <td>2.5016</td>
-   <td>37.40%</td>
-   <td>36.65%</td>
-   <td>10%</td>
- </tr>
- </tr>
-   <td>4</td>
-   <td>2.3802</td>
-   <td>39.27%</td>
-   <td>37.03%</td>
-   <td>30%</td>
- </tr>
- </tr>
-   <td>5</td>
-   <td>2.2887</td>
-   <td>40.81%</td>
-   <td>37.50%</td>
-   <td>40%</td>
- </tr>
- </tr>
-   <td>6</td>
-   <td>2.2135</td>
-   <td>41.37%</td>
-   <td>37.75%</td>
-   <td>50%</td>
- </tr>
+  <tr>
+    <td>b10c128</td>
+    <td>10 residual blocks, 128 convolutional filters (katago style)</td>
+    <td>~12Mb</td>
+    <td>~75hr</td>
+    <td>2.07</td>
+    <td>46.26%</td>
+    <td>38.04%</td>
+    <td>~ FOX 1 dan</td>
+  </tr>
 </table>
 
 # How to train your own net
