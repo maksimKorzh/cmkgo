@@ -5,7 +5,7 @@ Play Go/Weiqi/Baduk with a Neural Net in a web browser<br>
  - Chrome mobile/desktop
  - Firefox desktop
 <br>
-<a href="https://maksimkorzh.github.io/cmkgo/">PLAY NOW!</a><br><br>
+<a href="https://maksimkorzh.github.io/cmkgo/">Play now against FOX 1 Dan net</a><br><br>
 Firefox mobile is working only with CPU backend because its WebGL
 has issues with floating point precision and calculates forward pass
 in a completely misleading way.
@@ -22,10 +22,11 @@ in a completely misleading way.
 5. Connect "gtp.js" to GoGUI or other user interface
 
 # Training results
-I trained two policy nets (no value heads) on Intel Core i5-10400 CPU @ 2.90GHz × 6<br>
-using 1067091 training positions from 5155 Pro games (years 2013-2017):
+I trained three policy nets (no value heads) on Intel Core i5-10400 CPU @ 2.90GHz × 6<br>
+using ~1M training positions from Pro games (years 2013-2017) and ~1.5K FOX Pro games:
 <li><strong>cmkgo-cnn11c96-s1067091</strong></li>
 <li><strong>cmkgo-b6c96-s1067091</strong></li>
+<li><strong>cmkgo-b10c128-s1119000</strong></li>
 <br>
 Following table shows training results comparison:
 <br>
